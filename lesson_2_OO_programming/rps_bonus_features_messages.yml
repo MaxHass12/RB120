@@ -1,0 +1,20 @@
+welcome: "Welcome to Rock Paper Scissors Spock Lizard"
+line: "--------------------X----------------------"
+rules:
+  [
+    "Rock beats Lizard and Scissors.",
+    "Lizard beats Spock and Paper.",
+    "Spock beats Rock and Scissors.",
+    "Scissors beats Lizard and Paper.",
+    "Paper beats Rock and Spock.",
+  ]
+name: "Please enter your name."
+invalid_input: "Oops. Invalid Input. Please Try Again."
+choose_move: "Please make a move. Enter 'r' for rock, 'p' for paper, 's' for scissors, 'sp' for spock or `l` for lizard. Case does not matter."
+macbook_features: "Macbook chooses 'Rock' more frequently."
+windows_features: "Windows chooses 'Lizard' more frequently."
+continue: "Press Enter to continue."
+bye: "Goodbye. Thanks for Playing."
+another_game: "Do you want to play another game?"
+yes_or_no: "Enter 'y' for yes or 'n' for no. Case does not matter."
+see_move_history: "Press 'c' for computer's move history, 'u' for user's move history or Enter to continue."
