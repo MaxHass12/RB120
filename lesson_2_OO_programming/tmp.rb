@@ -1,6 +1,21 @@
-class Bar
+class Character
+  attr_accessor :name
+
+  def initialize(name)
+    @name = name
+  end
+
+  def speak
+    "#{@name} is speaking."
+  end
 end
 
-f = "Bar"
+class Thief < Character
+  def speak
+    "#{name} is whispering..."
+  end
+end
 
-f.constantize.new
+sneak = Thief.new("Sneak")
+p sneak.name # => "Sneak"
+p sneak.speak # => "Sneak is whispering..."
