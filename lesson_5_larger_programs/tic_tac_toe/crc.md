@@ -7,7 +7,7 @@
 2. Board
 
 - state: squares, user_marker, computer_marker
-- interface: reset, display, set_player_markers, user_won?, computer_won?, mark_square(marker)
+- interface: reset, display, set_player_markers, user_won?, computer_won?, mark_square(marker), full?
 - collaborators: Square
 
 3. Square
